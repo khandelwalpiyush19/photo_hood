@@ -1,3 +1,6 @@
+
+
+
 import "./boards.css";
 import Image from "../image/image";
 import { useQuery } from "@tanstack/react-query";
