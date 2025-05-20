@@ -9,6 +9,9 @@ const interact = async (id, type) => {
   return res.data;
 };
 
+
+
+
 const PostInteractions = ({ postId }) => {
   const queryClient = useQueryClient();
 
