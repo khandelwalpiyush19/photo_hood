@@ -11,6 +11,7 @@ const Image = ({ path, src, alt, className, w, h }) => {
           height: h,
           width: w,
         },
+        
       ]}
       alt={alt}
       loading="lazy"
