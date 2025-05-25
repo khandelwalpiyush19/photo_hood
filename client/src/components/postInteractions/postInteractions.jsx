@@ -11,7 +11,6 @@ const interact = async (id, type) => {
 
 
 
-
 const PostInteractions = ({ postId }) => {
   const queryClient = useQueryClient();
 
