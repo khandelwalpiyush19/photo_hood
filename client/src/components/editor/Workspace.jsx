@@ -17,6 +17,7 @@ const Workspace = ({ previewImg }) => {
 
       setCanvasOptions({
         ...canvasOptions,
+
         height: canvasHeight,
         orientation: canvasHeight > 375 ? "portrait" : "landscape",
       });
@@ -79,6 +80,7 @@ const Workspace = ({ previewImg }) => {
             ref={itemRef}
             onMouseDown={handleMouseDown}
           >
+
             <input
               type="text"
               value={textOptions.text}
@@ -93,6 +95,7 @@ const Workspace = ({ previewImg }) => {
               className="deleteTextButton"
               onClick={() => setTextOptions({ ...textOptions, text: "" })}
             >
+              
               <Image path="/general/delete.svg" alt="" />
             </div>
           </div>
