@@ -18,7 +18,6 @@ const Layers = () => {
         <h3>Layers</h3>
         <p>Select a layer to edit</p>
       </div>
-      
       <div
         onClick={() => handleSelectedLayer("text")}
         className={`layer ${selectedLayer === "text" ? "selected" : ""}`}
