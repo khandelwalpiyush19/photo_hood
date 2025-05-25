@@ -6,12 +6,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
 .createTop h1 {
   font-size: 20px;
   font-weight: 500;
 }
-
 .createTop button {
   background-color: #e50829;
   color: white;
@@ -49,14 +47,12 @@
   padding: 16px;
   position: relative;
 }
-
 .uploadTitle {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
-
 .uploadInfo {
   position: absolute;
   bottom: 32px;
@@ -64,7 +60,6 @@
   text-align: center;
   color: gray;
 }
-
 .preview {
   width: 375px;
   position: relative;
@@ -74,7 +69,6 @@
   border-radius: 32px;
   width: 100%;
 }
-
 .editIcon{
   position: absolute;
   top: 16px;
