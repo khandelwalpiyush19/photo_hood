@@ -11,7 +11,6 @@ const Comment = ({ comment }) => {
         <span className="commentUsername">{comment.user.displayName}</span>
         <p className="commentText">
           {comment.description}
-          
         </p>
         <span className="commentTime">{format(comment.createdAt)}</span>
       </div>
