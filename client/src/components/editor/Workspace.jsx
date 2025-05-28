@@ -80,7 +80,6 @@ const Workspace = ({ previewImg }) => {
             ref={itemRef}
             onMouseDown={handleMouseDown}
           >
-
             <input
               type="text"
               value={textOptions.text}
