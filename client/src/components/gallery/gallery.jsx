@@ -3,7 +3,8 @@ import "./gallery.css";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import InfiniteScroll from "react-infinite-scroll-component";
 import axios from "axios";
-import Skeleton from "../skeleton/skeleton";
+import Skeleton from "../skeleton/skeleton"
+
 
 const fetchPins = async ({ pageParam, search, userId, boardId }) => {
   const res = await axios.get(
@@ -17,7 +18,7 @@ const fetchPins = async ({ pageParam, search, userId, boardId }) => {
 const Gallery = ({ search, userId, boardId }) => {
   const { data, fetchNextPage, hasNextPage, status
 
-    
+
    } = useInfiniteQuery({
     queryKey: ["pins", search, userId, boardId],
     queryFn: ({ pageParam = 0 }) =>
