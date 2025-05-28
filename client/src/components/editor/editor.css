@@ -2,9 +2,6 @@
   display: flex;
   gap: 16px;
 }
-
-/* LEFT */
-
 .layers {
   flex: 1;
   display: flex;
