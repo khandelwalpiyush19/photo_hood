@@ -2,8 +2,6 @@ import Image from "../image/image";
 import {Link} from "react-router";
 import "./leftBar.css";
 
-
-
 const LeftBar = () => {
   return (
     <div className="leftBar">
