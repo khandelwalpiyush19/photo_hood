@@ -7,8 +7,7 @@ const interact = async (id, type) => {
   const res = await apiRequest.post(`/pins/interact/${id}`, { type });
 
   return res.data;
-};
-
+}
 const PostInteractions = ({ postId }) => {
   const queryClient = useQueryClient();
 
