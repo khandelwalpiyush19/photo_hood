@@ -15,7 +15,10 @@ const fetchPins = async ({ pageParam, search, userId, boardId }) => {
 };
 
 const Gallery = ({ search, userId, boardId }) => {
-  const { data, fetchNextPage, hasNextPage, status } = useInfiniteQuery({
+  const { data, fetchNextPage, hasNextPage, status
+
+    
+   } = useInfiniteQuery({
     queryKey: ["pins", search, userId, boardId],
     queryFn: ({ pageParam = 0 }) =>
       fetchPins({ pageParam, search, userId, boardId }),
