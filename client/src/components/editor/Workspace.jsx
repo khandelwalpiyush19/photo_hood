@@ -15,9 +15,7 @@ const Workspace = ({ previewImg }) => {
       const canvasHeight = (375 * previewImg.height) / previewImg.width;
 
       setCanvasOptions({
-        ...canvasOptions,
-
-        height: canvasHeight,
+        ...canvasOptions,  height: canvasHeight,
         orientation: canvasHeight > 375 ? "portrait" : "landscape",
       });
     }
