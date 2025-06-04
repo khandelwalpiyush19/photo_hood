@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import useEditorStore from "../../utils/editorStore";
-import Image from "../image/image";
-
+import Image from "../image/image"
 
 const Workspace = ({ previewImg }) => {
   const {
