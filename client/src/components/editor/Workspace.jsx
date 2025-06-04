@@ -13,7 +13,6 @@ const Workspace = ({ previewImg }) => {
   useEffect(() => {
     if (canvasOptions.height === 0) {
       const canvasHeight = (375 * previewImg.height) / previewImg.width;
-
       setCanvasOptions({
         ...canvasOptions,  height: canvasHeight,
         orientation: canvasHeight > 375 ? "portrait" : "landscape",
