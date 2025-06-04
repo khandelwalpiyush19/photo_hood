@@ -10,7 +10,6 @@ const Workspace = ({ previewImg }) => {
     canvasOptions,
     setCanvasOptions,
   } = useEditorStore();
-
   useEffect(() => {
     if (canvasOptions.height === 0) {
       const canvasHeight = (375 * previewImg.height) / previewImg.width;
